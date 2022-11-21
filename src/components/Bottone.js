@@ -1,7 +1,7 @@
 
-export default function Bottone(){
-    
+export default function Bottone(props){
+
     return(
-        <button></button>
+        <button onClick={props.mostra}>Stateee</button>
     )
 }
